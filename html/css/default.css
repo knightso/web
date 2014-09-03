@@ -98,8 +98,8 @@ h2{
 }
 
 h4{
-	border-top:#000 1px dotted;
-	border-bottom:#000 2px solid;
+	border-bottom:#000 1px dotted;
+	border-top:#000 2px solid;
 	font-size:14px;
 	margin-bottom:10px;
 }
@@ -300,4 +300,4 @@ list-style:disc inside;
 #twi_timelines{
 	margin:10px 0;
 	border-top: solid 1px #000;
-}
+}
