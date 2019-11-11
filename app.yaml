@@ -9,6 +9,11 @@ handlers:
   upload: html/index.html
   secure: always
 
+- url: /5mingcp/
+  static_files: html/5mingcp/index.html
+  upload: html/5mingcp/index.html
+  secure: always
+
 - url: /(.*)
   static_files: html/\1
   upload: html/.*
