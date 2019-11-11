@@ -1,91 +1,195 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
-
+<!doctype html>
+<html lang="ja">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="Description" content="システム開発を手掛ける合同会社ナイツオのWebサイトです。" />
-<meta name="Keywords" content="システム開発,業務システム,Webアプリケーション,合同会社" />
-<title>TracScrumHalf(トラックスクラムハーフ) - 合同会社ナイツオ</title>
-<link rel="stylesheet" href="./css/default.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="./css/print.css" type="text/css" media="print" />
-<script type="text/javascript" src="./js/main.js"></script>
-<link rel="shortcut icon" href="./img/favicon.ico" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="description" content="システム開発を手掛ける合同会社ナイツオのホームページです。" />
+<meta name="keywords" content="静岡,システム開発,業務システム,Webアプリケーション" />
+<title>合同会社ナイツオ-静岡 ソフトウェア システム開発</title>
+<link rel="stylesheet" href="./css/normalize.css">
+<link rel="stylesheet" href="./css/main.css">
 </head>
+<body>
+<!-- ========== header ========== -->
+<header>
+  <div class="container header-container">
+    <div class="header-inner">
+      <h1 class="header-logo"> <img src="./images/logo.png" srcset="./images/logo.png 1x, ./images/logo@2x.png 2x" alt="knightso"> </h1>
+      <button class="menu-btn" id="mobile-menu"></button>
+    </div>
+  </div>
+</header>
+<!-- ========== /header ========== -->
+<!-- ========== nav ========== -->
+<nav>
+  <div class="container nav-container">
+    <ul class="navbar">
+      <li><a href="#message">ごあいさつ</a></li>
+      <li><a href="#services">業務内容</a></li>
+      <li><a href="#company-info">会社概要</a></li>
+      <li><a href="#achievements">開発実績</a></li>
+      <li><a href="#clients">主要取引先</a></li>
+      <li><a href="#requirements">採用情報</a></li>
+      <li><a href="#products">自社製品</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- ========== /nav ========== -->
+<!-- ========== main ========== -->
+<main>
+  <section class="main" id="message">
+    <div class="container">
+      <h2 class="h2first"><span>ごあいさつ</span></h2>
+      <p>合同会社ナイツオは、静岡でWEBアプリケーションを中心に幅広くシステム開発を行っております。お客様のニーズ・課題を的確に把握して、最適でかつ期待を上回るITソリューションを提供することを目指しております。</p>
+      <p>Googleの提供するクラウドプラットフォームGoogle App Engineを利用して、低コストで高負荷対応WEBサービスを構築・保守します。また独自に編み出した高速プロトタイプ開発手法により、お客様のシステム発注リスクを極限まで抑えることが出来ます。</p>
+    </div>
+    <!-- /.container -->
+    <div class="arrow"></div>
+  </section>
+  <section class="main" id="services">
+    <div class="container ul-style1">
+      <h2><span>業務内容</span></h2>
+      <ul>
+        <li>各種業務アプリケーションの開発</li>
+        <li>開発プロセス・フレームワーク導入支援</li>
+        <li>オフショア開発コンサルティング</li>
+        <li>WEBサイト構築</li>
+      </ul>
+    </div>
+    <!-- /.container -->
+    <div class="arrow arrowclr"></div>
+  </section>
+  <section class="main" id="company-info">
+    <div class="container dl-style1">
+      <h2><span>会社概要</span></h2>
+      <dl>
+        <dt>社名</dt>
+        <dd>合同会社ナイツオ</dd>
+        <dt>代表社員</dt>
+        <dd>池田 大吾</dd>
+        <dt>設立</dt>
+        <dd>2008年7月9日</dd>
+        <dt>資本金</dt>
+        <dd>3,000,000円</dd>
+        <dt>所在地</dt>
+        <dd>〒420-0857<br>
+          静岡市葵区御幸町11-8 レイアップ御幸町ビル2F【<a href="https://goo.gl/maps/Eojzjso6TXv" target="_blank">MAP</a>】<br>
+          最寄り駅:JR静岡駅より徒歩3分<br>
+          TEL:054-277-9603<br>
+          FAX:054-277-9604</dd>
+        <dt>お問い合せ</dt>
+        <dd><img src="./images/email.png" alt="" width="500" height="59" class="img-responsive50"><span class="attention2">（迷惑メール対策のため画像で表示しています）</span></dd>
+      </dl>
+    </div>
+    <!-- /.container -->
+    <div class="arrow"></div>
+  </section>
+  <section class="main" id="achievements">
+    <div class="container dl-style1">
+      <h2><span>開発実績</span></h2>
+      <dl class="label">
+        <dt>業務</dt>
+        <dd><span>物流</span><span>公共</span><span>金融（証券・銀行）</span><span>医療</span></dd>
+        <dt>言語</dt>
+        <dd><span>Go言語</span><span>Java</span><span>PHP</span><span>Python</span><span>Javascript</span></dd>
+        <dt>OS</dt>
+        <dd><span>Windows</span><span>Linux</span></dd>
+        <dt>DB</dt>
+        <dd><span>PostgreSQL</span><span>MySQL</span><span>Oracle</span><span>DB2</span><span>MS SQL Server</span></dd>
+      </dl>
+    </div>
+    <!-- /.container -->
+    <div class="arrow arrowclr"></div>
+  </section>
+  <section class="main" id="clients">
+    <div class="container ul-style2">
+      <h2><span>主要取引先</span></h2>
+      <ul>
+        <li>株式会社トップゲート</li>
+        <li>株式会社サイバーエージェント</li>
+        <li>鈴与シンワート株式会社</li>
+      </ul>
+    </div>
+    <!-- /.container -->
+    <div class="arrow"></div>
+  </section>
+  <section class="main" id="recruit">
+    <div class="container dl-style1">
+      <h2><span>採用情報</span></h2>
+      <dl>
+        <dt>雇用形態</dt>
+        <dd>正社員（またはアルバイト）</dd>
+        <dt>勤務時間</dt>
+        <dd>7:30～12:30（5時間）</dd>
+        <dt>条件（正社員）</dt>
+        <dd>
+          <ul>
+            <li>昇給年一回</li>
+            <li>社会保険完備</li>
+            <li>残業手当</li>
+            <li>交通費（静岡県内ならば新幹線通勤可！）</li>
+            <li>住宅手当</li>
+            <li>朝礼手当</li>
+            <li>副業OK</li>
+          </ul>
+        </dd>
+        <dt>給与</dt>
+        <dd>[正社員] 月給10万円～<span class="attention">※</span><br>
+          [アルバイト] 時給1,000円～<span class="attention">※</span><br>
+          <span class="attention">※別途朝礼手当（3,000円/日）支給</span></dd>
+        <dt>求める人材</dt>
+        <dd>
+          <ul>
+            <li>下記技術経験ある方
+              <ul>
+                <li>Google App Engine</li>
+                <li>Go言語(Golang)</li>
+                <li>Java</li>
+                <li>AngularJS</li>
+              </ul>
+            </li>
+            <li>朝つよい方</li>
+          </ul>
+        </dd>
+        <dt>応募・お問い合わせ</dt>
+        <dd>下記アドレスへメール下さい。<br>
+          <img src="./images/email.png" alt="" width="500" height="59" class="img-responsive50"><span class="attention2">（迷惑メール対策のため画像で表示しています）</span></dd>
+      </dl>
+    </div>
+    <!-- /.container -->
+    <div class="arrow arrowclr"></div>
+  </section>
+  <section class="main" id="products">
+    <div class="container dl-style2">
+      <h2><span>自社製品</span></h2>
+      <dl>
+        <dt>TracScrumHalf（トラックスクラムハーフ）</dt>
+        <dd>Scrum（アジャイル開発手法）をサポートするツールです。</dd>
+        <dt>DIYホームページ</dt>
+        <dd>お客様ご自身がワープロ感覚で直接ホームページを作成・編集頂けるサービスです。<br>
+          Googleのクラウドプラットフォーム上にホスティングされ、月額1,000円（税別）〜でご利用頂けます。<br>
+          <span class="attention">※別途初期準備費用が必要となります</span><br>
+          ご興味ある方は弊社までお問い合わせください。</dd>
+      </dl>
+    </div>
+    <!-- /.container --> 
+  </section>
+</main>
+<!-- ========== /main ========== --> 
+<!-- ========== footer ========== -->
+<footer>
+  <div class="container footer-container">
+    <ul class="footer-sns">
+      <li><a href="https://twitter.com/knightsollc" target="_blank"><img src="./images/Twitter_Social_Icon_Circle_White.png" alt="" width="40" height="40"></a></li>
+      <li><a href="http://knightso.hateblo.jp/" target="_blank"><img src="./images/blog_Icon_Circle_White.png" alt="" width="40" height="40"></a></li>
+    </ul>
+    <small class="footer-copyright">Copyright&copy;knightso Corporation. All rights reserved.</small>
+  </div>
+</footer>
+<!-- ========== /footer ========== --> 
 
-<body marginheight="0" topmargin="0" marginwidth="0" leftmargin="0">
-<div id="container">
-
-<!-- ###### header ###### -->
-	<div id="header">
-		<h1 id="companyLogo"><a href="http://www.knightso.co.jp/" title="knightso">knightso</a></h1>
-		<h3 id="companyLogoJP"><a href="http://www.knightso.co.jp/" title="合同会社ナイツオ">合同会社ナイツオ</a></h3>
-		
-	</div>
-	<!-- ###### main_container ###### -->
-	<div id="main_container">
-		
-		<!-- ###### left_container ###### -->
-		<div id="left_container">
-			<div id="navi">
-				<div id="navigation">
-				<ul>
-					<li class="n_message"><a href="index.html#message">ごあいさつ</a></li>
-					<li class="n_services"><a href="index.html#services">業務内容</a></li>
-					<li class="n_companyInfo"><a href="index.html#companyInfo">会社概要</a></li>
-					<li class="n_achievements"><a href="index.html#achievements">開発実績</a></li>
-					<li class="n_clients"><a href="index.html#clients">開発実績</a></li>
-					<li class="n_products"><a href="index.html#products">自社製品</a></li>
-		<!--			<li class="n_recruit"><a href="index.html#recruit">リクルート</a></li>	-->
-				</ul>	
-				</div>
-			</div>
-		</div>
-		
-		<!-- ###### right_container ###### -->
-		<div id="right_container">
-			<img src="./img/TracScrumHalf_logo.gif" alt="TracScrumHalf" width="357" height="50" class="bottom10" />
-			<p class="bottom20">TracScrumHalf（トラックスクラムハーフ）は、アジャイル開発手法の一つであるScrumをサポートする為のツールです。
-				<br /><a href="http://trac.edgewall.org/" target="_blank">Tracというオープンソースのバグ管理システム</a>のプラグインとして開発されています。</p>
-
-			<h4>スクリーンショット</h4>
-			<a href="img/TracScrumHalf_SS01.gif" target="_brank"><img src="img/TracScrumHalf_SS01_s.gif" alt="スクリーンショット拡大する" width="327" height="200" class="bottom20" /></a>
-			
-			<h4>機能</h4>
-			<h5>▼バーンダウンチャート</h5>
-			<p>タスクの残作業量推移を表すグラフを表示します。チームの進捗が一目で分かります。</p>
-			<a href="img/TracScrumHalf_SS02_burndown.gif" target="_brank"><img src="img/TracScrumHalf_SS02_burndown_s.gif" alt="バーンダウンチャート拡大する" width="343" height="100" class="bottom20" /></a>
-
-			<h5>▼スプリントバックログ</h5>
-			<p>各タスクの日毎の残作業量推移を表すテーブルを表示します。</p>
-			<a href="img/TracScrumHalf_SS03_backlog.gif" target="_brank"><img src="img/TracScrumHalf_SS03_backlog_s.gif" alt="スプリントバックログ拡大する" width="482" height="100" class="bottom20" /></a>
-			
-			<h5>▼ニコニコカレンダー</h5>
-			<p>チームメンバーがタスクチケットのコメントに顔文字を記述することで、スプリントバックログにフェースマークアイコンが表示されます。<br />これによりメンバーの心理状態を把握することができます。</p>
-			<a href="img/TracScrumHalf_SS04_nico1.gif" target="_brank"><img src="img/TracScrumHalf_SS04_nico1_s.gif" alt="ニコニコカレンダー1拡大する" width="242" height="100" class="bottom20" /></a>
-			
-			<p>アイコンをマウスオーバーするとコメント全体がバルーン表示されます。</p>
-			<a href="img/TracScrumHalf_SS05_nico2.gif" target="_brank"><img src="img/TracScrumHalf_SS05_nico2_s.gif" alt="ニコニコカレンダー2拡大する" width="245" height="100" class="bottom20" /></a>
-			<h5>▼その他の機能</h5>
-			<ul class="bottom20">
-				<li>タスクチケット分割</li>
-				<li>ガントチャート出力</li>
-			</ul>
-		</div>
-		
-	</div>
-	</div>
-
-<!-- ###### fooder ###### -->
-	<div id="footer">
-		<p>Copyright &copy; knightso Corporation. All rights reserved.</p>
-	</div>
-	
-
-<p id="pageTop"><a href="#header"><img src="./img/pagetop.gif" alt="このページの先頭へ" class="png roll" /></a></p>
-
-
-</div>
-
+<script src="./script/script.js"></script>
 </body>
 </html>
