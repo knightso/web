@@ -1,6 +1,4 @@
-runtime: python27
-api_version: 1
-threadsafe: yes
+runtime: go123
 default_expiration: "1h"
 
 handlers:
@@ -18,8 +16,4 @@ handlers:
   static_files: html/\1
   upload: html/.*
   secure: always
-
-libraries:
-- name: webapp2
-  version: "2.5.2"
 
